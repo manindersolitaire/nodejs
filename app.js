@@ -1,9 +1,15 @@
-// const fs =  require('fs')
-// const http =  require('http')
-// const path = require('path')
-// const os =  require('os')
-// const url = require('url')
-// const crypto =  require('crypto')
+const fs =  require('fs')
+const http =  require('http')
+const path = require('path')
+const os =  require('os')
+const url = require('url')
+const crypto =  require('crypto')
+const {sayBye , sayHello} =  require('./greetings')
+const math =  require('./math')
+
+const lodash =  require('lodash')
+const colors = require('colors')
+
 // fs.readFile('example.txt', 'utf-8' ,(err,data)=>{
 //      if(err){
 //         console.log(err)
@@ -68,3 +74,27 @@
 
 // console.log(hash.digest('hex'))
 
+
+// const message  =  sayHello("Developer")
+// const message1 =  sayBye()
+
+// console.log(message)
+// console.log(message1)
+
+// console.log(math.add(5,5))
+// console.log(math.subtract(5,5))
+
+// const numbers =  [1,2,3,4,5,6]
+
+// const reversed = lodash.reverse(numbers)
+
+// console.log(reversed)
+
+// console.log("Hello".bgCyan)
+
+ 
+// console.log('hello'.green); // outputs green text
+// console.log('i like cake and pies'.underline.red) // outputs red underlined text
+// console.log('inverse the color'.inverse); // inverses the color
+// console.log('OMG Rainbows!'.rainbow); // rainbow
+// console.log('Run the trap'.trap); // Drops the bass
